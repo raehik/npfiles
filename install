@@ -24,3 +24,11 @@ done
 cd "$(dirname "$0")"
 
 cp -vR $(find home -mindepth 1 -maxdepth 1) "$HOME"
+
+echo "appending hibernate/suspend aliases to ~/.zshrc..."
+echo "
+# alias for easy hibernation
+alias h='systemctl hibernate'
+
+# alias for easy suspend
+alias s='systemctl suspend'" >> ~/.zshrc
