@@ -31,4 +31,7 @@ echo "
 alias h='systemctl hibernate'
 
 # alias for easy suspend
-alias s='systemctl suspend'" >> ~/.zshrc
+alias s='systemctl suspend'
+
+# alias for easy video playback
+alias p='mplayer -fs'" >> ~/.zshrc
