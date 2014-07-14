@@ -34,7 +34,9 @@ floating_modifier $mod
 
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
-bindsym XF86MenuKB exec i3-sensible-terminal
+# easy bind for tablet
+#bindsym XF86MenuKB exec i3-sensible-terminal
+bindsym F11 exec i3-sensible-terminal
 
 # kill focused window
 bindsym $mod+Shift+q kill
