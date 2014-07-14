@@ -27,11 +27,19 @@ cp -vR $(find home -mindepth 1 -maxdepth 1) "$HOME"
 
 echo "appending hibernate/suspend aliases to ~/.zshrc..."
 echo "
-# alias for easy hibernation
+# Aliases for Samsung NP-Q1U tablet
+
+## easy hibernation
 alias h='systemctl hibernate'
 
-# alias for easy suspend
+## easy suspend
 alias s='systemctl suspend'
 
-# alias for easy video playback
-alias p='mplayer -fs'" >> ~/.zshrc
+## easy mount 
+alias m='mount'
+
+## easy video playback
+alias p='mplayer -fs'
+
+## easy ncmpcpp
+alias nc='ncmpcpp'" >> ~/.zshrc
